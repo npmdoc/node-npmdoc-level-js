@@ -63,6 +63,15 @@
 
         <li>
 
+            <a class="apidocElementLiA" href="#apidoc.element.level-js.level-js">
+            function <span class="apidocSignatureSpan"></span>level-js
+            <span class="apidocSignatureSpan">(location)</span>
+            </a>
+
+        </li>
+
+        <li>
+
             <a class="apidocElementLiA" href="#apidoc.element.level-js.destroy">
             function <span class="apidocSignatureSpan">level-js.</span>destroy
             <span class="apidocSignatureSpan">(db, callback)</span>
@@ -284,6 +293,24 @@
 
 <div class="apidocSectionDiv">
 <h1><a href="#apidoc.module.level-js" id="apidoc.module.level-js">module level-js</a></h1>
+
+
+    <h2>
+        <a href="#apidoc.element.level-js.level-js" id="apidoc.element.level-js.level-js">
+        function <span class="apidocSignatureSpan"></span>level-js
+        <span class="apidocSignatureSpan">(location)</span>
+        </a>
+    </h2>
+    <ul>
+    <li>description and source-code<pre class="apidocCodePre">function Level(location) {
+  if (!(this instanceof Level)) return new Level(location)
+  if (!location) throw new Error(&#x22;constructor requires at least a location argument&#x22;)
+  this.IDBOptions = {}
+  this.location = location
+}</pre></li>
+    <li>example usage<pre class="apidocCodePre">n/a</pre></li>
+    </ul>
+
 
 
     <h2>
